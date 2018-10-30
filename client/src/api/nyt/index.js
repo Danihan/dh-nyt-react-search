@@ -1,5 +1,3 @@
-import fetchJsonp from 'fetch-jsonp'
-
 const API_KEY = process.env.NYT_API_KEY
 
 async function search(topic, startYear, endYear) {
